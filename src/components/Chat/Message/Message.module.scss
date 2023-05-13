@@ -1,0 +1,26 @@
+.message {
+  display: flex;
+}
+
+.receive {
+  justify-content: start;
+}
+
+.send {
+  justify-content: end;
+}
+
+.text {
+  padding: 8px;
+  border-radius: 10px;
+}
+
+.text_receive {
+  width: max-content;
+  background: #ffcbb8;
+}
+
+.text_send {
+  width: max-content;
+  background: #c0f9c5;
+}

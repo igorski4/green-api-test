@@ -1,0 +1,17 @@
+.item {
+  padding-left: 10px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  border-radius: 6px;
+  background-color: rgb(252, 252, 252);
+  border: 1.5px solid;
+  border-color: rgb(129, 129, 129);
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.active_item {
+  background-color: rgba(234, 214, 190, 0.893);
+}

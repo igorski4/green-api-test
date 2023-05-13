@@ -1,0 +1,62 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  height: 100vh;
+  background-color: rgb(231, 208, 179);
+}
+
+.chat {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  width: 95%;
+  height: 95%;
+  margin: auto;
+  background: white;
+  border-radius: 20px;
+}
+
+.chatarea {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  padding: 15px;
+  flex-grow: 1;
+  background: #e6e6e68f;
+  border-radius: 10px;
+}
+
+.input_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.textarea {
+  font-family: Rubik, sans-serif;
+  font-size: 20px;
+  width: 70%;
+  padding: 10px;
+  height: 70px;
+  border-radius: 10px;
+  resize: none;
+  border-color: rgb(26, 26, 26);
+}
+
+.button {
+  font-family: Rubik, sans-serif;
+  font-size: 20px;
+  width: 25%;
+  padding: 10px;
+  height: 70px;
+  border-radius: 10px;
+  border: 1.5px solid;
+  background: #dfdfdf;
+  border-color: rgb(26, 26, 26);
+  &:hover {
+    cursor: pointer;
+    background: #d0d0d0;
+  }
+}
